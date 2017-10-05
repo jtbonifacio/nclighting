@@ -1,0 +1,32 @@
+<h1>LED Spinner Page</h1>
+<div class="form-group col-md-3">
+    <h4>Types</h4>
+    <ul type="disc">
+        <li><a ui-sref="basic" ng-click="getBasic()">Basic</a></li><br>
+        <li><a ui-sref="led" ng-click="getLED()">LED</a></li><br>
+    </ul>
+    </li>
+    </ul>
+</div>
+
+
+<div class="form-group col-md-9">
+    <div ng-repeat="spinner in LEDSpinners">
+        <div class="col-md-4">
+            <img class="spinnerImg" src="{{ spinner.img }}">
+            <h4>{{ spinner.model }}</h4>
+            <h4>{{ spinner.type }}</h4>
+            <h4>{{ spinner.price | currency }}</h4>
+        </div>
+    </div>
+
+    <label>ID: </label>
+    <input type="text" class="form-control" placeholder="ID" ng-model="spinner.id">
+    <label>Model: </label>
+    <input type="text" class="form-control" placeholder="Spinner Name" ng-model="spinner.model">
+    <label>Type: </label>
+    <input type="text" class="form-control" placeholder="Spinner Name" ng-model="spinner.type">
+    <label>Price: </label>
+    <input type="text" class="form-control" placeholder="Spinner Price" ng-model="spinner.price">
+    <button class="btn pull-right btn-primary cbtn" ng-click="addSpinnerModel()">Add Spinner</button>
+</div>

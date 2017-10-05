@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="spinnerApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Spinner Shoppe</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Spinner Shoppe</title>
+
+  <!-- Google Font - Open Sans -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN 3.3.7  -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous"> -->
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Angular CDN 1.5.7 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+
+  <!-- Angular UI Router CDN 0.4.2 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+</head>
+
+<body>
+ 
+    <h1 align="center">The Spinner Shoppe!</h1>
+    <!-- Nav -->
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <!-- <li class="active"><a ui-sref="Home">Home</a></li> -->
+                <li class="active"><a ui-sref="Home">Home</a></li>
+                <li class="active"><a ui-sref="Spinner">Spinners</a></li>
+                <li class="active"><a ui-sref="Store">Stores</a></li>
+                <li class="active"><a ui-sref="Profile">Profile</a></li>
+              </ul>
+              </li>
+              </ul>
+            </div>
+
+            <!-- <div class="form-group col-md-9">
+          </div> -->
+          </div>
+        </nav>
+        <!-- Content -->
+        <div ui-view></div>
+
+        <div class="about_footer">
+          <div class="text-center center-block">
+            <br>
+            <a href="https://www.facebook.com/spinnershoppe"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="https://twitter.com/spinnershoppe"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://plus.google.com/+spinnershoppe-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+            <a href="mailto:spinnershoppe@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+          <br>
+          <span style="font-size:15px">Copyright </span> ©
+          <span style="font-size:15px">2017 Spinner Shoppe</span>
+          </div>
+        </div>
+      
+      <!-- Module -->
+      <script type="text/javascript" src="./app.js"></script>
+
+      <!-- Services -->
+      <script type="text/javascript" src="./services/ProfileService.js"></script>
+      <script type="text/javascript" src="./services/SpinnerService.js"></script>
+      <script type="text/javascript" src="./services/StoreService.js"></script>
+      <script type="text/javascript" src="./services/ledService.js"></script>
+      <script type="text/javascript" src="./services/basicService.js"></script>
+      <script type="text/javascript" src="./services/HomeService.js"></script>
+      
+      
+
+
+      <!-- Controllers -->
+      <script type="text/javascript" src="./controllers/ProfileController.js"></script>
+      <script type="text/javascript" src="./controllers/SpinnerController.js"></script>
+      <script type="text/javascript" src="./controllers/StoreController.js"></script>
+      <script type="text/javascript" src="./controllers/basicController.js"></script>
+      <script type="text/javascript" src="./controllers/ledController.js"></script>
+      <script type="text/javascript" src="./controllers/HomeController.js"></script>
+
+
+      <!--Components -->
+      <!-- <script type="text/javascript" src="./components/navbar/navbar.js"></script> -->
+
+
+</body>
+
+</html>

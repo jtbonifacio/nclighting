@@ -1,0 +1,22 @@
+C:\Users\Chaka\Desktop\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.deps.json
+C:\Users\Chaka\Desktop\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.runtimeconfig.json
+C:\Users\Chaka\Desktop\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.runtimeconfig.dev.json
+C:\Users\Chaka\Desktop\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.dll
+C:\Users\Chaka\Desktop\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.csprojResolveAssemblyReference.cache
+C:\Users\Chaka\Desktop\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.csproj.CoreCompileInputs.cache
+C:\Users\Chaka\Desktop\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.AssemblyInfoInputs.cache
+C:\Users\Chaka\Desktop\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.AssemblyInfo.cs
+C:\Users\Chaka\Desktop\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.pdb
+C:\Users\Chaka\Desktop\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.dll
+C:\Users\Chaka\Desktop\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.pdb
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.deps.json
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.runtimeconfig.json
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.runtimeconfig.dev.json
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.dll
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\bin\Debug\netcoreapp2.0\SpinnersLab.pdb
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.csprojResolveAssemblyReference.cache
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.csproj.CoreCompileInputs.cache
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.AssemblyInfoInputs.cache
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.AssemblyInfo.cs
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.dll
+C:\Users\DeeJay\Desktop\RCA - Project # 2\SpinnersLab\obj\Debug\netcoreapp2.0\SpinnersLab.pdb

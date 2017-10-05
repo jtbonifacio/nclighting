@@ -1,0 +1,61 @@
+Daily Sales:
+        public int Id { get; set; }
+        public DateTime DATE { get; set; }
+        public string SALES_REP { get; set; }
+        public int SalesAmt { get; set; }
+Inventory:
+        public int Id { get; set; }
+        public string ITEM { get; set; }
+        public string ITEM_DESC { get; set; }
+        public int ON_HAND_QTY { get; set; }
+        public string STATUS { get; set; }
+        public int PRICE { get; set; }
+        public string IMAGE { get; set; }
+Monthly Sales:
+        public int Id { get; set; }
+        public string SALES_REP { get; set; }
+        public int SalesAmt { get; set; }
+Quarterly Sales:
+        public int Id { get; set; }
+        public string SALES_REP { get; set; }
+        public int SalesAmt { get; set; }
+Quotas:
+        public int Id { get; set; }
+        public string SALES_REP { get; set; }
+        public int YEARLY_QUOTA { get; set; }
+        public int MONTHLY_QUOTA { get; set; }
+        public string REPNAME { get; set; }
+Users:
+        public int Id { get; set; }
+        public string FIRSTNAME { get; set; }
+        public string LASTNAME { get; set; }
+        public string LOGIN { get; set; }
+        public string PASSWORD { get; set; }
+        public string POSITION { get; set; }
+Weekly Sales:
+        public int Id { get; set; }
+        public string SALES_REP { get; set; }
+        public int SalesAmt { get; set; }
+Yearly Sales:
+        public int Id { get; set; }
+        public string SALES_REP { get; set; }
+        public int SalesAmt { get; set; }
+
+
+
+Date = new DateTime(2016, 5, 2)
+
+launchSettings.json: "applicationUrl": "http://localhost:50587/",
+
+"applicationUrl": "http://localhost:50588/"
+
+Notes:
+To fix launchSettings.json, need to turn off debugging from Chrome and IE under Tools menu (Visual Studio 2017).
+
+For every model, controller, etc., changes, always update PM (package manager).
+Enable-Migrations: Enables Code First Migrations in a project.
+Add-Migration: Scaffolds a migration script for any pending model changes.
+Update-Database: Applies any pending migrations to the database.
+Get-Migrations: Displays the migrations that have been applied to the target database.
+https://coding.abel.nu/2012/03/ef-migrations-command-reference/
+

@@ -1,0 +1,11 @@
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\bin\Debug\netcoreapp2.0\NCLBackend.deps.json
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\bin\Debug\netcoreapp2.0\NCLBackend.runtimeconfig.json
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\bin\Debug\netcoreapp2.0\NCLBackend.runtimeconfig.dev.json
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\bin\Debug\netcoreapp2.0\NCLBackend.dll
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\obj\Debug\netcoreapp2.0\NCLBackend.csprojResolveAssemblyReference.cache
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\obj\Debug\netcoreapp2.0\NCLBackend.csproj.CoreCompileInputs.cache
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\obj\Debug\netcoreapp2.0\NCLBackend.AssemblyInfoInputs.cache
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\obj\Debug\netcoreapp2.0\NCLBackend.AssemblyInfo.cs
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\bin\Debug\netcoreapp2.0\NCLBackend.pdb
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\obj\Debug\netcoreapp2.0\NCLBackend.dll
+C:\Users\DeeJay\Desktop\RCA - Project # 2\NCLBackend\obj\Debug\netcoreapp2.0\NCLBackend.pdb

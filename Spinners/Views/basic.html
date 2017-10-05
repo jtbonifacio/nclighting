@@ -1,0 +1,35 @@
+<h1>BASIC Spinner Page</h1>
+<div class="form-group col-md-3">
+    <h4>Types</h4>
+    <ul type="disc">
+        <li><a ui-sref="basic" ng-click="getBasic()">Basic</a></li><br>
+        <li><a ui-sref="led" ng-click="getLED()">LED</a></li><br>
+    </ul>
+    </li>
+    </ul>
+</div>
+
+
+<div class="form-group col-md-9">
+    <div ng-repeat="spinner in spinners">
+        <div class="col-md-4">
+            <img ng-click="deleteSpinner(spinner)"class="spinnerImg" src="{{ spinner.img }}">
+            <h4>{{ spinner.model }}</h4>
+            <h4>{{ spinner.type }}</h4>
+            <h4>{{ spinner.price | currency }}</h4>
+        </div>
+    </div>
+
+    <label>ID: </label>
+    <input type="text" class="form-control" placeholder="ID" ng-model="newSpinner.id">
+    <label>Model: </label>
+    <input type="text" class="form-control" placeholder="Spinner Model" ng-model="newSpinner.model">
+    <label>Type: </label>
+    <input type="text" class="form-control" placeholder="Spinner Type" ng-model="newSpinner.type">
+    <label>Price: </label>
+    <input type="text" class="form-control" placeholder="Spinner Price" ng-model="newSpinner.price">
+    <label>Image: </label>
+    <input type="text" class="form-control" placeholder="Spinner Image" ng-model="newSpinner.img">
+    <button class="btn pull-right btn-primary cbtn" ng-click="addSpinnerModel()">Add Spinner</button>
+
+</div>

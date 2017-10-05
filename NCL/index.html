@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="reportsApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Concept Lighting PartnerLink</title>
+    <script>"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"</script>
+    <script>"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"</script>
+    <!-- Bootstrap CDN 3.3.7  -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel='stylesheet' type='text/css'>
+    <!-- Angular CDN 1.5.7 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+    <!-- Angular UI Router CDN 0.4.2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+</head>
+
+<body>
+    <!-- Side Navbar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#/home">Home</a>
+        <a href="#/newsletter">Newsletter</a>
+        <a href="#/inventory">Inventory</a>
+        <a href="#/dailysales">Daily Sales</a>
+        <a href="#/weeklysales">Weekly Sales</a>
+        <a href="#/monthlysales">Monthly Sales</a>
+        <a href="#/quarterlysales">Quarterly Sales</a>
+        <a href="#/yearlysales">YTD Sales</a>
+        <a href="#/quotas">Rep Quotas</a>
+        <a href="#/users">User Tools</a>
+        <a href="#/home">Sign Out</a>
+    </div>
+    <!-- <div class="dropdown">
+        <button class="btn btn-success" type="button" data-toggle="dropdown">Excel</button>
+        <button class="btn btn-danger" type="button" data-toggle="dropdown">PDF</button>
+    </div> -->
+    <!-- Content -->
+    <div ui-view></div>
+
+    <!-- Module -->
+    <script type="text/javascript" src="./app.js"></script>
+
+    <!-- Services -->
+    <script type="text/javascript" src="./Services/homeService.js"></script>
+    <script type="text/javascript" src="./Services/inventoryService.js"></script>
+    <script type="text/javascript" src="./Services/monthlysalesService.js"></script>
+    <script type="text/javascript" src="./Services/newsletterService.js"></script>
+    <script type="text/javascript" src="./Services/quarterlysalesService.js"></script>
+    <script type="text/javascript" src="./Services/weeklysalesService.js"></script>
+    <script type="text/javascript" src="./Services/yearlysalesService.js"></script>
+    <script type="text/javascript" src="./Services/dailysalesService.js"></script>
+    <script type="text/javascript" src="./Services/quotasService.js"></script>
+    <script type="text/javascript" src="./Services/userService.js"></script>
+
+    <!-- Controllers -->
+    <script type="text/javascript" src="./Controllers/homeController.js"></script>
+    <script type="text/javascript" src="./Controllers/inventoryController.js"></script>
+    <script type="text/javascript" src="./Controllers/monthlysalesController.js"></script>
+    <script type="text/javascript" src="./Controllers/newsletterController.js"></script>
+    <script type="text/javascript" src="./Controllers/quarterlysalesController.js"></script>
+    <script type="text/javascript" src="./Controllers/weeklysalesController.js"></script>
+    <script type="text/javascript" src="./Controllers/yearlysalesController.js"></script>
+    <script type="text/javascript" src="./Controllers/dailysalesController.js"></script>
+    <script type="text/javascript" src="./Controllers/quotasController.js"></script>
+    <script type="text/javascript" src="./Controllers/userController.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+</body>
+
+</html>

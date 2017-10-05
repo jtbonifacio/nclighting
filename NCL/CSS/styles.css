@@ -1,0 +1,248 @@
+html, body{
+  height: 100%;
+  
+}
+body { 
+  background-image: url(../Images/boardroom6.jpg);
+			
+  /* background-image: url("https://c.pxhere.com/photos/65/56/white_board_startup_start_up_presentation_board_diagram_present_show-764662.jpg!"); */
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #999;
+}
+
+div, body{
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Architects Daughter', cursive;
+  color: black;
+  /* For Side NavBar */
+  transition: background-color .5s;
+}
+
+.headerMessage{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.form-group{
+    text-align: center;
+}
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+   width: 375px;
+   height: 50px;
+   margin: 0 auto;
+   margin-bottom: 20px; 
+   font-size: 150%;
+ }
+.pw {
+   width: 375px;
+   height: 50px;
+   margin: 0 auto;
+   margin-bottom: 30px; 
+   font-size: 150%;
+}
+#unam{
+font-size: 150%;
+}
+#pword{
+font-size: 150%;
+}
+#aboutFooter{
+    margin-top: 200px;
+    font-size: 150%;
+    font-weight: bold;
+}
+/* .wrapper {
+  height: 100%; 
+  width: 100%; 
+} */
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%; 
+  height:45%;
+  bottom: 0; 
+  display: block;
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 0.5em;
+}
+/* For Video Background */
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat; */
+    background-size: cover;
+    transition: 1s opacity;
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  /* html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; } */
+  html { background: url() #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+/* .mySales{
+      background-image: url("https://c.pxhere.com/photos/65/56/white_board_startup_start_up_presentation_board_diagram_present_show-764662.jpg!");
+      background-position: center center;
+      background-repeat:  no-repeat;
+      background-attachment: fixed;
+      background-size:  cover;
+      background-color: #999;
+} */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+      padding-top: 15px;
+  }
+  .sidenav a {
+      font-size: 18px;
+  }
+}
+/* .mySales {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+} */
+/* CSS for Tables/Report Formatting */
+table {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.responsive {
+  width: 100%;
+  border-collapse: collapse;
+}
+.responsive tr:nth-of-type(odd) {
+  background: #eee;
+}
+.responsive th {
+  font-weight: bold;
+  background: #333;
+  color: white;
+}
+.responsive th, .responsive td {
+  text-align: left;
+  padding: 6px;
+}
+@media only screen and (max-width: 640px) {
+  .frame {
+    padding: 20px;
+  }
+  .responsive, .responsive thead, .responsive tbody, .responsive th, .responsive td, .responsive tr {
+    display: block;
+  }
+  .responsive {
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+  }
+  .responsive thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .responsive td {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    padding-left: 50%;
+  }
+  .responsive td:nth-of-type(4) {
+    border-bottom: 0;
+  }
+  .responsive tr {
+    border-bottom: 1px solid #bbb;
+  }
+  .responsive td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 70%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  .responsive td:nth-of-type(1):before {
+    content: "NDC";
+  }
+  .responsive td:nth-of-type(2):before {
+    content: "DESCRIPTION";
+  }
+  .responsive td:nth-of-type(3):before {
+    content: "ABC";
+  }
+  .responsive td:nth-of-type(4):before {
+    content: "CARDINAL";
+  }
+}
+.field {
+  font-size: 150%;
+}
+   
+.col-md-3 {
+  font-size: 150%;
+}
+.dropdown {
+  top: 130px;
+  right: 200px;
+  float: right;
+}

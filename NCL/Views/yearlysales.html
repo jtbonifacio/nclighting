@@ -1,0 +1,36 @@
+<div class="dropdown">
+    <button class="btn btn-success" type="button" data-toggle="dropdown">Excel</button>
+    <button class="btn btn-danger" type="button" data-toggle="dropdown">PDF</button>
+</div>
+<div class="mySales">
+    <div id="main">
+        <center>
+            <h1>Welcome to the YTD Sales Report Page</h1>
+        </center>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Links</span>
+        <center>
+            <table>
+                <tr>
+                    <td width="1000" class="frame">
+                        <table class="responsive">
+                            <thead>
+                                <tr>
+                                    <th class="table-date">Year</th>
+                                    <th class="table-sales_rep">SALES_REP</th>
+                                    <th class="table-salesamt">YTD Total Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="y in yearlies">
+                                    <td>2017</td>
+                                    <td>{{ y.saleS_REP }}</td>
+                                    <td>{{ y.salesAmt | currency }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+</div>

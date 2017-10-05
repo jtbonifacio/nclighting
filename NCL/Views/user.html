@@ -1,0 +1,110 @@
+<div class="mySales">
+    <div id="main">
+        <center>
+            <h1>User Account Info</h1>
+        </center>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Links</span>
+        <center>
+            <table>
+                <tr>
+                    <td width="1000" class="frame">
+                        <table class="responsive">
+                            <thead>
+                                <tr>
+                                    <th class="table-id">ID</th>
+                                    <th class="table-firstname">First Name</th>
+                                    <th class="table-lastname">Last Name</th>
+                                    <th class="table-position">Position</th>
+                                    <th class="table-login">Login</th>
+                                    <th class="table-password">Password</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="u in users">
+                                    <td>{{ u.id }}</td>
+                                    <td>{{ u.firstname }}</td>
+                                    <td>{{ u.lastname }}</td>
+                                    <td>{{ u.position }}</td>
+                                    <td>{{ u.login }}</td>
+                                    <td>{{ u.password }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <center>
+            <h1>Add New User</h1>
+            <form ng-submit="">
+                <div class="field">
+                    <label for="firstName">First Name: </label>
+                    <input id="firstName" type="text" placeholder="First Name" ng-model="newFirstName">
+                </div>
+                <div class="field">
+                    <label for="lastName">Last Name: </label>
+                    <input id="lastName" type="text" placeholder="Last Name" ng-model="newLastName">
+                </div>
+                <div class="field">
+                    <label for="position">Position: </label>
+                    <input id="position" type="text" placeholder="Position" ng-model="newPosition">
+                </div>
+                <div class="field">
+                    <label for="login">Login: </label>
+                    <input id="login" type="text" placeholder="Login" ng-model="newLogin">
+                </div>
+                <div class="field">
+                    <label for="password">Password: </label>
+                    <input id="password" type="text" placeholder="Password" ng-model="newPassword">
+                </div>
+                <div class="action">
+                    <button ng-click="postdata(firstname, lastname, login, password, position)">Add</button>
+                    <button ng-click="Reset()">Reset</button>
+                    <p>Output Message : {{ msg }}</p>
+                    <!-- <p>StatusCode: {{ statusval }}</p>
+                    <p>Status: {{ statustext }}</p>
+                    <p>Response Headers: {{ headers }}</p> -->
+                </div>
+            </form>
+        </center>
+        <div>
+            <center>
+                <h1>Delete A User</h1>
+                <center>
+                    <table>
+                        <tr>
+                            <td width="1000" class="frame">
+                                <table class="responsive">
+                                    <thead>
+                                        <tr>
+                                            <th class="table-id">ID</th>
+                                            <th class="table-firstname">First Name</th>
+                                            <th class="table-lastname">Last Name</th>
+                                            <th class="table-position">Position</th>
+                                            <th class="table-login">Login</th>
+                                            <th class="table-password">Password</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="u in users">
+                                            <td>{{ u.id }}</td>
+                                            <td>{{ u.firstname }}</td>
+                                            <td>{{ u.lastname }}</td>
+                                            <td>{{ u.position }}</td>
+                                            <td>{{ u.login }}</td>
+                                            <td>{{ u.password }}</td>
+                                            <td><input type="button" class="btn btn-danger" value="Delete" ng-click="deletedata($index)"/></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </center>
+        </div>
+    </div>
+
+
+</div>
+</div>

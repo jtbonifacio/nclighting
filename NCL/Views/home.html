@@ -1,0 +1,27 @@
+<video poster="" id="bgvid" playsinline autoplay muted loop>
+    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">  -->
+    <source src="./Videos/bgvideo.webm" type="video/webm">
+    <source src="./Videos/bgvideo.mp4" type="video/mp4">
+</video>
+<!-- <h1 align="center">New Concept Lighting - Home</h1> -->
+<div class="wrapper">
+    <div class="headerMessage">
+        <h1 style="font-size:500%">Welcome to New Concept Lighting</h1>
+        <h1 style=>Management Portal</h1>
+        <h2 style=>Please sign in below:</h2>
+    </div>
+    <form form role="form" class="form-group centered">
+        <div class="form-group col-md-12">
+            <label id="unam" for="userName">Username: </label>
+            <input class="name form-control" ng-model="userName" type="text" placeholder="Enter login ID" required/>
+            <label id="pword" for="password">Password: </label>
+            <input class="pw form-control" ng-model="pass" type="password" placeholder="***************" required/>
+            <button ng-click="login()" class="login btn btn-md btn-info" type="submit">Sign-In</button>
+         </div>
+    </form>
+    <div class="form-group col-md-12" id="aboutFooter">
+        <span style="font-size:15px">Copyright </span> ©
+        <span style="font-size:15px">2017 New Concept Lighting, Inc</span>
+    </div>
+</div>
